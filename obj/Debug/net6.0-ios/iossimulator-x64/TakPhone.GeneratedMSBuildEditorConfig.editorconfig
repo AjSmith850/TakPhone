@@ -8,34 +8,70 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TakPhone
-build_property.ProjectDir = C:\Users\Anthony\Desktop\TakPhone\
+build_property.ProjectDir = E:\TakPhone\
 
-[C:/Users/Anthony/Desktop/TakPhone/App.xaml]
+[E:/TakPhone/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TakPhone.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Anthony/Desktop/TakPhone/AppShell.xaml]
+[E:/TakPhone/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TakPhone.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Anthony/Desktop/TakPhone/MainPage.xaml]
+[E:/TakPhone/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TakPhone.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Anthony/Desktop/TakPhone/Resources/Styles/Colors.xaml]
+[E:/TakPhone/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TakPhone.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Anthony/Desktop/TakPhone/Resources/Styles/Styles.xaml]
+[E:/TakPhone/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TakPhone.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[E:/TakPhone/TakPhone/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TakPhone.TakPhone.App.xaml
+build_metadata.AdditionalFiles.TargetPath = TakPhone\App.xaml
+build_metadata.AdditionalFiles.RelativePath = TakPhone\App.xaml
+
+[E:/TakPhone/TakPhone/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TakPhone.TakPhone.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = TakPhone\AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = TakPhone\AppShell.xaml
+
+[E:/TakPhone/TakPhone/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TakPhone.TakPhone.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TakPhone\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TakPhone\MainPage.xaml
+
+[E:/TakPhone/TakPhone/Platforms/Windows/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TakPhone.TakPhone.Platforms.Windows.App.xaml
+build_metadata.AdditionalFiles.TargetPath = TakPhone\Platforms\Windows\App.xaml
+build_metadata.AdditionalFiles.RelativePath = TakPhone\Platforms\Windows\App.xaml
+
+[E:/TakPhone/TakPhone/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TakPhone.TakPhone.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = TakPhone\Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = TakPhone\Resources\Styles\Colors.xaml
+
+[E:/TakPhone/TakPhone/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TakPhone.TakPhone.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = TakPhone\Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = TakPhone\Resources\Styles\Styles.xaml
