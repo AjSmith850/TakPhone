@@ -5,6 +5,8 @@
              x:Class="TakPhone.App">
     <Application.Resources>
         <ResourceDictionary>
+            <Color x:Key="WindowBackgroundColor">#f2f2f7</Color>
+            <Color x:Key="WindowBackgroundColorDark">Black</Color>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
