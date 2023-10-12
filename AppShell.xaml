@@ -100,6 +100,16 @@
         <ShellContent ContentTemplate="{DataTemplate local:Views.AboutPage}" Route="AboutPage"/>
     </FlyoutItem>
 
+    <FlyoutItem Title="Settings">
+        <FlyoutItem.Icon>
+            <FontImageSource FontFamily="FAS"
+                             Color="{AppThemeBinding 
+                                    Dark=White, 
+                                    Light={StaticResource Black}}"/>
+        </FlyoutItem.Icon>
+        <ShellContent ContentTemplate="{DataTemplate local:Views.SettingsPage}" Route="SettingsPage"/>
+    </FlyoutItem>
+
 
 
 </Shell>
