@@ -6,7 +6,19 @@
     <VerticalStackLayout>
         <Label 
             Text="SETTINGS PAGE HERE"
+            FontSize="Large"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Button
+                    x:Name="CounterBtn"
+                    Text="User Profile"/>
+        <Button
+                    x:Name="Button2"
+                    Text="User Preferences"/>
+        <Button
+                    x:Name="Button3"
+                    Text="Enable Dark Mode"/>
+        
     </VerticalStackLayout>
 </ContentPage>

@@ -358,3 +358,4 @@ C:\Users\grace\classes\cs303\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10
 C:\Users\grace\classes\cs303\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\grace\classes\cs303\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\grace\classes\cs303\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\grace\classes\cs303\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mapex.scale-100.png

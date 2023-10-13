@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="TakPhone"
              x:Class="TakPhone.MainPage">
 
-    <VerticalStackLayout>
+    <VerticalStackLayout
+        Spacing="5">
 
         <Image
                 Source="mapex.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
                 HeightRequest="675"
                 Aspect="AspectFill"
                 HorizontalOptions="Center" />
@@ -17,13 +18,13 @@
 
             <Button
                     x:Name="CounterBtn"
-                    Text="Button1"/>
+                    Text="Compass"/>
             <Button
                     x:Name="Button2"
-                    Text="Button2"/>
+                    Text="Coordinates"/>
             <Button
                     x:Name="Button3"
-                    Text="Button3"/>
+                    Text="Topographical"/>
         </HorizontalStackLayout>
 
     </VerticalStackLayout>
