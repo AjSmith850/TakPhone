@@ -13,20 +13,6 @@
                 Aspect="AspectFill"
                 HorizontalOptions="Center" />
 
-        <HorizontalStackLayout
-            Spacing="5">
-
-            <Button
-                    x:Name="CounterBtn"
-                    Text="Compass"/>
-            <Button
-                    x:Name="Button2"
-                    Text="Coordinates"/>
-            <Button
-                    x:Name="Button3"
-                    Text="Topographical"/>
-        </HorizontalStackLayout>
-
     </VerticalStackLayout>
 
 </ContentPage>
