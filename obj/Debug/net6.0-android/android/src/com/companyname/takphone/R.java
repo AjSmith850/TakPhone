@@ -33604,6 +33604,7 @@ public final class R {
      * <tr><td>textCapWords</td><td>2001</td><td></td></tr>
      * <tr><td>textEmailAddress</td><td>21</td><td></td></tr>
      * <tr><td>textEmailSubject</td><td>31</td><td></td></tr>
+     * <tr><td>textEnableTextConversionSuggestions</td><td>100001</td><td></td></tr>
      * <tr><td>textFilter</td><td>b1</td><td></td></tr>
      * <tr><td>textImeMultiLine</td><td>40001</td><td></td></tr>
      * <tr><td>textLongMessage</td><td>51</td><td></td></tr>
@@ -39300,6 +39301,7 @@ public final class R {
      * <tr><td>textCapWords</td><td>2001</td><td></td></tr>
      * <tr><td>textEmailAddress</td><td>21</td><td></td></tr>
      * <tr><td>textEmailSubject</td><td>31</td><td></td></tr>
+     * <tr><td>textEnableTextConversionSuggestions</td><td>100001</td><td></td></tr>
      * <tr><td>textFilter</td><td>b1</td><td></td></tr>
      * <tr><td>textImeMultiLine</td><td>40001</td><td></td></tr>
      * <tr><td>textLongMessage</td><td>51</td><td></td></tr>
