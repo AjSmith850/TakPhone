@@ -3,22 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TakPhone.Views.SettingsPage"
              Title="Settings">
-    <VerticalStackLayout>
-        <Label 
-            Text="SETTINGS PAGE HERE"
-            FontSize="Large"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-
-        <Button
-                    x:Name="CounterBtn"
-                    Text="User Profile"/>
-        <Button
-                    x:Name="Button2"
-                    Text="User Preferences"/>
-        <Button
-                    x:Name="Button3"
-                    Text="Enable Dark Mode"/>
-        
-    </VerticalStackLayout>
+    
+    <WebView Source="https://zoom.earth/maps/radar/#view=28.41,54.89,5z" />
 </ContentPage>

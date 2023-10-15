@@ -4,15 +4,6 @@
              Title="TakPhone"
              x:Class="TakPhone.MainPage">
 
-    <VerticalStackLayout
-        Spacing="5">
-
-        <Image
-                Source="mapex.png"
-                HeightRequest="675"
-                Aspect="AspectFill"
-                HorizontalOptions="Center" />
-
-    </VerticalStackLayout>
+    
 
 </ContentPage>

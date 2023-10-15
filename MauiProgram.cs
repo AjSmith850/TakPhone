@@ -12,7 +12,13 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
-
-		return builder.Build();
+/*        builder.Services.AddMauiBlazorWebView();
+#if DEBUG
+        builder.Services.AddBlazorWebViewDeveloperTools();
+#endif
+        // Register any app services on the IServiceCollection object
+        // e.g. builder.Services.AddSingleton<WeatherForecastService>();
+*/
+        return builder.Build();
 	}
 }
