@@ -3,30 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="TakPhone"
              x:Class="TakPhone.MainPage">
-
-    <VerticalStackLayout
-        Spacing="5">
-
-        <Image
-                Source="mapex.png"
-                HeightRequest="675"
-                Aspect="AspectFill"
-                HorizontalOptions="Center" />
-
-        <HorizontalStackLayout
-            Spacing="5">
-
-            <Button
-                    x:Name="CounterBtn"
-                    Text="Compass"/>
-            <Button
-                    x:Name="Button2"
-                    Text="Coordinates"/>
-            <Button
-                    x:Name="Button3"
-                    Text="Topographical"/>
-        </HorizontalStackLayout>
-
-    </VerticalStackLayout>
-
+    <WebView>
+        <WebView.Source>
+            <HtmlWebViewSource>
+                <HtmlWebViewSource.Html>
+                    <![CDATA[
+                <HTML> 
+                <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+                <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+                <BODY>
+                    <div id='map' style='height: 100%;'></div>
+                    <script>
+                      mapboxgl.accessToken = 'pk.eyJ1IjoiYW50aG9ueXNtaXRoMjQiLCJhIjoiY2xuaTR2eWd5MThhZDJsbWtkZ2xvb3RoaiJ9.eK3qorEG1pmEgf0YxJlJJQ';
+                      var map = new mapboxgl.Map({
+                        container: 'map',
+                        style: 'mapbox://styles/mapbox/streets-v11'
+                      });
+                    </script>
+                </BODY>
+                </HTML>
+                ]]>
+                </HtmlWebViewSource.Html>
+            </HtmlWebViewSource>
+        </WebView.Source>
+    </WebView>
 </ContentPage>

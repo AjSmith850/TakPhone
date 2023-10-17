@@ -80,7 +80,7 @@
     </Shell.Resources>
 
 
-    <FlyoutItem Title="Home">
+    <FlyoutItem Title="Topographical">
         <FlyoutItem.Icon>
             <FontImageSource FontFamily="FAS"
                              Color="{AppThemeBinding 
@@ -90,7 +90,7 @@
         <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage"/>
     </FlyoutItem>
 
-    <FlyoutItem Title="About">
+    <FlyoutItem Title="Satalite">
         <FlyoutItem.Icon>
             <FontImageSource FontFamily="FAS"
                              Color="{AppThemeBinding 
@@ -100,7 +100,7 @@
         <ShellContent ContentTemplate="{DataTemplate local:Views.AboutPage}" Route="AboutPage"/>
     </FlyoutItem>
 
-    <FlyoutItem Title="Settings">
+    <FlyoutItem Title="Forecast">
         <FlyoutItem.Icon>
             <FontImageSource FontFamily="FAS"
                              Color="{AppThemeBinding 

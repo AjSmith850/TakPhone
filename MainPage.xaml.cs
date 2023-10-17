@@ -1,24 +1,34 @@
-﻿namespace TakPhone;
+﻿using System.Text.Json;
 
-public partial class MainPage : ContentPage
-{
-	int count = 0;
+namespace TakPhone;
 
+public partial class MainPage : ContentPage{
 	public MainPage()
 	{
 		InitializeComponent();
-	}
 
-	private void OnCounterClicked(object sender, EventArgs e)
-	{
-		count++;
 
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
+    }
 
-		SemanticScreenReader.Announce(CounterBtn.Text);
-	}
+    // RestService Class example from: https://learn.microsoft.com/en-us/dotnet/maui/data-cloud/rest
+
+/*    public class RestService
+    {
+        HttpClient _client;
+        JsonSerializerOptions _serializerOptions;
+
+        public List<TodoItem> Items { get; private set; }
+
+        public RestService()
+        {
+            _client = new HttpClient();
+            _serializerOptions = new JsonSerializerOptions
+            {
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+                WriteIndented = true
+            };
+        }
+    
+    }*/
 }
 

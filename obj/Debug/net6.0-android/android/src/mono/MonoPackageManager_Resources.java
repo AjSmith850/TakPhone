@@ -9,6 +9,7 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Controls.dll",
 		"Microsoft.Maui.Essentials.dll",
 		"GoogleGson.dll",
+		"System.Web.Razor.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",
 		"Microsoft.Extensions.DependencyInjection.dll",

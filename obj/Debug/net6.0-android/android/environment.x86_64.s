@@ -1096,6 +1096,10 @@ app_system_properties:
 .L.env.buf.264:
 	.zero	65
 	.size	.L.env.buf.264, 65
+	.type	.L.env.buf.265, @object
+.L.env.buf.265:
+	.zero	65
+	.size	.L.env.buf.265, 65
 	# Bundled assemblies data
 
 	.type	bundled_assemblies, @object
@@ -3489,7 +3493,16 @@ bundled_assemblies:
 	.zero	4
 	.quad	.L.env.buf.264	# name
 
-	.size	bundled_assemblies, 10600
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.265	# name
+
+	.size	bundled_assemblies, 10640
 	# Assembly store individual assembly data
 	.type	assembly_store_bundled_assemblies, @object
 	.global	assembly_store_bundled_assemblies
@@ -3702,7 +3715,7 @@ dso_cache:
 	.size	dso_cache, 1024
 
 	#
-	# Generated from instance of: Xamarin.Android.Tasks.ApplicationConfig, Xamarin.Android.Build.Tasks, Version=12.3.99.76, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
+	# Generated from instance of: Xamarin.Android.Tasks.ApplicationConfig, Xamarin.Android.Build.Tasks, Version=12.3.99.109, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
 	#
 	.type	application_config, @object
 	.global	application_config
@@ -3725,7 +3738,7 @@ application_config:
 	.long	0x3	# package_naming_policy
 	.long	0xc	# environment_variable_count
 	.long	0x0	# system_property_count
-	.long	0x109	# number_of_assemblies_in_apk
+	.long	0x10a	# number_of_assemblies_in_apk
 	.long	0x41	# bundled_assembly_name_width
 	.long	0x2	# number_of_assembly_store_files
 	.long	0x20	# number_of_dso_cache_entries
@@ -3778,7 +3791,7 @@ application_config:
 
 	.type	.L.autostr.8, @object
 .L.autostr.8:
-	.asciz	"a5b66670-55ba-45f3-90a3-7a1bbf441435"
+	.asciz	"f6068f3b-b57d-4814-926c-adf08b10cbcf"
 	.size	.L.autostr.8, 37
 
 	.type	.L.autostr.9, @object
@@ -3967,4 +3980,4 @@ application_config:
 	.size	.L.autostr.45, 25
 
 
-	.ident	"Xamarin.Android remotes/origin/release/6.0.4xx @ af4a25d50f5a602c77d05c2ec8c8644c00cffbbd"
+	.ident	"Xamarin.Android remotes/origin/release/6.0.4xx @ 25cb50d78ac929b03d2ec6f1a4c0a7aeb9bcebc3"
