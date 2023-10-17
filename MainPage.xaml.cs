@@ -11,6 +11,7 @@ public partial class MainPage : ContentPage{
     }
 
     // RestService Class example from: https://learn.microsoft.com/en-us/dotnet/maui/data-cloud/rest
+
 /*    public class RestService
     {
         HttpClient _client;
