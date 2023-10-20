@@ -4,5 +4,5 @@
              x:Class="TakPhone.Views.SettingsPage"
              Title="Settings">
     
-    <WebView Source="https://zoom.earth/maps/radar/#view=28.41,54.89,5z" />
+    <WebView Source="https://zoom.earth/maps" />
 </ContentPage>
