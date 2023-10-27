@@ -7,7 +7,8 @@
     Title="TakPhone"
     FlyoutBackgroundColor="{AppThemeBinding
                     Dark={StaticResource WindowBackgroundColorDark},
-                    Light={StaticResource WindowBackgroundColor}}">
+                    Light={StaticResource WindowBackgroundColor}}"
+    Shell.NavBarIsVisible="False">
 
 
     <Shell.Resources>
@@ -90,7 +91,7 @@
         <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage"/>
     </FlyoutItem>
 
-    <FlyoutItem Title="Satalite">
+    <FlyoutItem Title="Satellite">
         <FlyoutItem.Icon>
             <FontImageSource FontFamily="FAS"
                              Color="{AppThemeBinding 
