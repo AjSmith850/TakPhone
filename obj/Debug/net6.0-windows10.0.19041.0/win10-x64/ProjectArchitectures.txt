@@ -1,1 +1,1 @@
-E:\TakPhone\TakPhone.csproj;x64
+C:\Users\grace\source\repos\TakPhone\TakPhone.csproj;x64
