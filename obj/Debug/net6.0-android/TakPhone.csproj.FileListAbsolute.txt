@@ -2996,6 +2996,13 @@ C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-android\stamp\_ConvertReso
 C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\typemaps.x86_64.s
+C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\environment.x86_64.s
+C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\compressed_assemblies.x86_64.s
+C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\typemaps.x86_64.o
+C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\environment.x86_64.o
+C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\compressed_assemblies.x86_64.o
+C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\app_shared_libraries\x86_64\libxamarin-app.so
 C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\assets\mscorlib.dll
 C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\assets\System.Data.dll
@@ -3004,10 +3011,3 @@ C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\assets\Sys
 C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\assets\System.Xml.dll
-C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\typemaps.arm64-v8a.s
-C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\environment.arm64-v8a.s
-C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\compressed_assemblies.arm64-v8a.s
-C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\typemaps.arm64-v8a.o
-C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\environment.arm64-v8a.o
-C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\compressed_assemblies.arm64-v8a.o
-C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so

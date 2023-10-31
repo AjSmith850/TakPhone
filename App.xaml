@@ -5,6 +5,11 @@
              x:Class="TakPhone.App">
     <Application.Resources>
         <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="FontAwesomeSolid">
+                <On Platform="iOS" Value="FontAwesome6Free-Solid" />
+                <On Platform="Android" Value="Fonts/fontawesome-free-6.4.2-desktop/otfs/Font Awesome 6 Free-Solid-900.otf#Font Awesome 6 Free" />
+                <On Platform="UWP" Value="ms-appx:///Fonts/fontawesome-free-6.4.2-desktop/otfs/Font Awesome 6 Free-Solid-900.otf#Font Awesome 6 Free" />
+            </OnPlatform>
             <Color x:Key="WindowBackgroundColor">#f2f2f7</Color>
             <Color x:Key="WindowBackgroundColorDark">Black</Color>
             <ResourceDictionary.MergedDictionaries>

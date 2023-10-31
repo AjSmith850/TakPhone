@@ -43,18 +43,38 @@
             </WebView.Source>
         </WebView>
 
-        <Label x:Name="gridCoordinatesLabel"
-       Text="Grid Coordinates: "
-       AbsoluteLayout.LayoutFlags="PositionProportional"
-       AbsoluteLayout.LayoutBounds="0.94, 0.87, AutoSize, AutoSize"
-       IsVisible="False"
-       TextColor="Black" />
+
+        <Frame
+            x:Name="gridCoordinatesFrame"
+            Padding="10"
+            BackgroundColor="White"
+            CornerRadius="5"
+            HasShadow="True"
+            IsVisible="False"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.98, 0.8, AutoSize, AutoSize">
+
+            <Label x:Name="gridCoordinatesLabel"
+                   Text="Grid Coordinates: "
+                   IsVisible="False"
+                   TextColor="Black" />
+
+        </Frame>
+
 
         <Button Text="GridCoords" Clicked="ToggleGridCoords"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
                 AbsoluteLayout.LayoutBounds=".99, 0.94, AutoSize, AutoSize" />
 
+        <Button Clicked="ToggleFlyout"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds=".02, 0.01, AutoSize, AutoSize">
+            <Button.ImageSource>
+                <FontImageSource Glyph="&#xf0c9;" FontFamily="{StaticResource FontAwesomeSolid}" />
+            </Button.ImageSource>
+        </Button>
 
     </AbsoluteLayout>
 </ContentPage>
- 
