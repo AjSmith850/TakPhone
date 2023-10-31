@@ -1,4 +1,5 @@
 ﻿namespace TakPhone;
+using Microsoft.Maui.Graphics;
 
 public partial class MainPage : ContentPage{
 	public MainPage()
@@ -15,19 +16,24 @@ public partial class MainPage : ContentPage{
 
         if (width > height)
         {
-            Shell.SetNavBarIsVisible(this, false);
-            Shell.SetFlyoutBehavior(this, FlyoutBehavior.Flyout);
-        } 
+            gridCoordinatesFrame.IsVisible = !gridCoordinatesFrame.IsVisible;
+            gridCoordinatesFrame.IsVisible = !gridCoordinatesFrame.IsVisible;
+
+            AbsoluteLayout.SetLayoutBounds(gridCoordinatesFrame, new Rect(0.98, 0.8, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));
+        }
         else
         {
-            Shell.SetNavBarIsVisible(this, false);
-            Shell.SetFlyoutBehavior(this, FlyoutBehavior.Flyout);
+            AbsoluteLayout.SetLayoutBounds(gridCoordinatesFrame, new Rect(0.98, 0.87, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));
         }
+
+        gridCoordinatesFrame.ForceLayout();
     }
 
     private async void ToggleGridCoords(object sender, EventArgs e)
     {
+        gridCoordinatesFrame.IsVisible = !gridCoordinatesFrame.IsVisible;
         gridCoordinatesLabel.IsVisible = !gridCoordinatesLabel.IsVisible;
+
 
         if (gridCoordinatesLabel.IsVisible)
         {
@@ -44,6 +50,11 @@ public partial class MainPage : ContentPage{
                 gridCoordinatesLabel.Text = "Unable to retrieve location.";
             }
         }
+    }
+
+    private void ToggleFlyout(object sender, EventArgs e)
+    {
+        Shell.Current.FlyoutIsPresented = true;
     }
 
     // RestService Class example from: https://learn.microsoft.com/en-us/dotnet/maui/data-cloud/rest
