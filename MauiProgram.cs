@@ -14,13 +14,14 @@ public static class MauiProgram
 			});
 
 
-/*        builder.Services.AddMauiBlazorWebView();
+        builder.Services.AddBlazorWebView();
+
+        builder.Services.AddMauiBlazorWebView();
 #if DEBUG
         builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
         // Register any app services on the IServiceCollection object
         // e.g. builder.Services.AddSingleton<WeatherForecastService>();
-*/
         return builder.Build();
 	}
 }

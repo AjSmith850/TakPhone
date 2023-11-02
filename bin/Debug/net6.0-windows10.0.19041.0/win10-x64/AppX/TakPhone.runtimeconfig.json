@@ -4,19 +4,19 @@
     "includedFrameworks": [
       {
         "name": "Microsoft.NETCore.App",
-        "version": "6.0.10"
+        "version": "6.0.24"
       },
       {
         "name": "Microsoft.Maui.Core",
-        "version": "**FromWorkload**"
+        "version": "6.0.553"
       },
       {
         "name": "Microsoft.Maui.Controls",
-        "version": "**FromWorkload**"
+        "version": "6.0.553"
       },
       {
         "name": "Microsoft.Maui.Essentials",
-        "version": "**FromWorkload**"
+        "version": "6.0.553"
       }
     ],
     "configProperties": {

@@ -1100,6 +1100,74 @@ app_system_properties:
 .L.env.buf.265:
 	.zero	65
 	.size	.L.env.buf.265, 65
+	.type	.L.env.buf.266, @object
+.L.env.buf.266:
+	.zero	65
+	.size	.L.env.buf.266, 65
+	.type	.L.env.buf.267, @object
+.L.env.buf.267:
+	.zero	65
+	.size	.L.env.buf.267, 65
+	.type	.L.env.buf.268, @object
+.L.env.buf.268:
+	.zero	65
+	.size	.L.env.buf.268, 65
+	.type	.L.env.buf.269, @object
+.L.env.buf.269:
+	.zero	65
+	.size	.L.env.buf.269, 65
+	.type	.L.env.buf.270, @object
+.L.env.buf.270:
+	.zero	65
+	.size	.L.env.buf.270, 65
+	.type	.L.env.buf.271, @object
+.L.env.buf.271:
+	.zero	65
+	.size	.L.env.buf.271, 65
+	.type	.L.env.buf.272, @object
+.L.env.buf.272:
+	.zero	65
+	.size	.L.env.buf.272, 65
+	.type	.L.env.buf.273, @object
+.L.env.buf.273:
+	.zero	65
+	.size	.L.env.buf.273, 65
+	.type	.L.env.buf.274, @object
+.L.env.buf.274:
+	.zero	65
+	.size	.L.env.buf.274, 65
+	.type	.L.env.buf.275, @object
+.L.env.buf.275:
+	.zero	65
+	.size	.L.env.buf.275, 65
+	.type	.L.env.buf.276, @object
+.L.env.buf.276:
+	.zero	65
+	.size	.L.env.buf.276, 65
+	.type	.L.env.buf.277, @object
+.L.env.buf.277:
+	.zero	65
+	.size	.L.env.buf.277, 65
+	.type	.L.env.buf.278, @object
+.L.env.buf.278:
+	.zero	65
+	.size	.L.env.buf.278, 65
+	.type	.L.env.buf.279, @object
+.L.env.buf.279:
+	.zero	65
+	.size	.L.env.buf.279, 65
+	.type	.L.env.buf.280, @object
+.L.env.buf.280:
+	.zero	65
+	.size	.L.env.buf.280, 65
+	.type	.L.env.buf.281, @object
+.L.env.buf.281:
+	.zero	65
+	.size	.L.env.buf.281, 65
+	.type	.L.env.buf.282, @object
+.L.env.buf.282:
+	.zero	65
+	.size	.L.env.buf.282, 65
 	# Bundled assemblies data
 
 	.type	bundled_assemblies, @object
@@ -3502,7 +3570,160 @@ bundled_assemblies:
 	.zero	4
 	.quad	.L.env.buf.265	# name
 
-	.size	bundled_assemblies, 10640
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.266	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.267	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.268	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.269	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.270	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.271	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.272	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.273	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.274	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.275	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.276	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.277	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.278	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.279	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.280	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.281	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.zero	4
+	.quad	0x0	# data
+	.long	0x0	# name_length
+	.zero	4
+	.quad	.L.env.buf.282	# name
+
+	.size	bundled_assemblies, 11320
 	# Assembly store individual assembly data
 	.type	assembly_store_bundled_assemblies, @object
 	.global	assembly_store_bundled_assemblies
@@ -3715,7 +3936,7 @@ dso_cache:
 	.size	dso_cache, 1024
 
 	#
-	# Generated from instance of: Xamarin.Android.Tasks.ApplicationConfig, Xamarin.Android.Build.Tasks, Version=12.3.99.76, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
+	# Generated from instance of: Xamarin.Android.Tasks.ApplicationConfig, Xamarin.Android.Build.Tasks, Version=12.3.99.109, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
 	#
 	.type	application_config, @object
 	.global	application_config
@@ -3738,7 +3959,7 @@ application_config:
 	.long	0x3	# package_naming_policy
 	.long	0xc	# environment_variable_count
 	.long	0x0	# system_property_count
-	.long	0x10a	# number_of_assemblies_in_apk
+	.long	0x11b	# number_of_assemblies_in_apk
 	.long	0x41	# bundled_assembly_name_width
 	.long	0x2	# number_of_assembly_store_files
 	.long	0x20	# number_of_dso_cache_entries
@@ -3791,7 +4012,7 @@ application_config:
 
 	.type	.L.autostr.8, @object
 .L.autostr.8:
-	.asciz	"f3f545b2-08cd-4ccf-92ee-03356e6d70cf"
+	.asciz	"f19ff678-4aac-482e-99a6-21c10e971380"
 	.size	.L.autostr.8, 37
 
 	.type	.L.autostr.9, @object
@@ -3980,4 +4201,4 @@ application_config:
 	.size	.L.autostr.45, 25
 
 
-	.ident	"Xamarin.Android remotes/origin/release/6.0.4xx @ af4a25d50f5a602c77d05c2ec8c8644c00cffbbd"
+	.ident	"Xamarin.Android remotes/origin/release/6.0.4xx @ 25cb50d78ac929b03d2ec6f1a4c0a7aeb9bcebc3"
