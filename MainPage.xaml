@@ -4,7 +4,8 @@
              xmlns:blazor="clr-namespace:Microsoft.AspNetCore.Components.WebView.Maui;assembly=Microsoft.AspNetCore.Components.WebView.Maui"
              Title="TakPhone"
              x:Class="TakPhone.MainPage"
-             Shell.NavBarIsVisible="False">
+             Shell.NavBarIsVisible="False"
+             xmlns:models="clr-namespace:TakPhone.Models">
 
     <AbsoluteLayout>
 
@@ -27,20 +28,15 @@
                    Text="Grid Coordinates: "
                    IsVisible="False"
                    TextColor="Black" />
-
         </Frame>
 
-
-        <Button Text="GridCoords" Clicked="ToggleGridCoords"
+        <Button FontFamily="FontSolid" Text="{x:Static models:Icons.LocationCrosshairs}" Clicked="ToggleGridCoords"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
                 AbsoluteLayout.LayoutBounds=".99, 0.94, AutoSize, AutoSize" />
 
-        <Button Clicked="ToggleFlyout"
+        <Button FontFamily="FontSolid" Text="{x:Static models:Icons.Bars}" Clicked="ToggleFlyout"
             AbsoluteLayout.LayoutFlags="PositionProportional"
             AbsoluteLayout.LayoutBounds=".02, 0.01, AutoSize, AutoSize">
-            <Button.ImageSource>
-                <FontImageSource Glyph="&#xf0c9;" FontFamily="{StaticResource FontAwesomeSolid}" />
-            </Button.ImageSource>
         </Button>
 
     </AbsoluteLayout>

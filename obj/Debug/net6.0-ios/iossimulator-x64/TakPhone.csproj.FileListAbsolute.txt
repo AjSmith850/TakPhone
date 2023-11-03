@@ -510,9 +510,6 @@ C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\refin
 C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\TakPhone.pdb
 C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\TakPhone.genruntimeconfig.cache
 C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\ref\TakPhone.dll
-E:\TakPhone\bin\Debug\net6.0-ios\iossimulator-x64\Fonts\fontawesome-free-6.4.2-desktop\metadata\icon-families.json
-E:\TakPhone\bin\Debug\net6.0-ios\iossimulator-x64\Fonts\fontawesome-free-6.4.2-desktop\metadata\icons.json
-E:\TakPhone\bin\Debug\net6.0-ios\iossimulator-x64\Fonts\fontawesome-free-6.4.2-desktop\metadata\shims.json
 E:\TakPhone\bin\Debug\net6.0-ios\iossimulator-x64\TakPhone.runtimeconfig.json
 E:\TakPhone\bin\Debug\net6.0-ios\iossimulator-x64\TakPhone.dll
 E:\TakPhone\bin\Debug\net6.0-ios\iossimulator-x64\TakPhone.pdb
@@ -743,7 +740,6 @@ E:\TakPhone\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet-debug.a
 E:\TakPhone\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 E:\TakPhone\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.a
 E:\TakPhone\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-E:\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature
 E:\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\staticwebassets\msbuild.TakPhone.Microsoft.AspNetCore.StaticWebAssets.props
 E:\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\staticwebassets\msbuild.build.TakPhone.props
 E:\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\staticwebassets\msbuild.buildMultiTargeting.TakPhone.props
@@ -780,6 +776,7 @@ E:\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\splash@3x.png
 E:\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\mauiimage.stamp
 E:\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
 E:\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\mauifont.stamp
+E:\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\f\fa-solid-900.ttf
 E:\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
 E:\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Semibold.ttf
 E:\TakPhone\obj\Debug\net6.0-ios\iossimulator-x64\actool\_PartialAppManifest.items

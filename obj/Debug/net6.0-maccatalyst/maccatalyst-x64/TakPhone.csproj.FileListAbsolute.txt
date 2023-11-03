@@ -492,9 +492,6 @@ C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-maccatalyst\maccatalyst-x6
 C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\TakPhone.pdb
 C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\TakPhone.genruntimeconfig.cache
 C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\ref\TakPhone.dll
-E:\TakPhone\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Fonts\fontawesome-free-6.4.2-desktop\metadata\icon-families.json
-E:\TakPhone\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Fonts\fontawesome-free-6.4.2-desktop\metadata\icons.json
-E:\TakPhone\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Fonts\fontawesome-free-6.4.2-desktop\metadata\shims.json
 E:\TakPhone\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\TakPhone.runtimeconfig.json
 E:\TakPhone\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\TakPhone.dll
 E:\TakPhone\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\TakPhone.pdb
@@ -756,6 +753,7 @@ E:\TakPhone\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources
 E:\TakPhone\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 E:\TakPhone\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
 E:\TakPhone\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\mauifont.stamp
+E:\TakPhone\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\f\fa-solid-900.ttf
 E:\TakPhone\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\f\OpenSans-Regular.ttf
 E:\TakPhone\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\f\OpenSans-Semibold.ttf
 E:\TakPhone\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\actool\_PartialAppManifest.items
