@@ -28,9 +28,7 @@
                    Text="Grid Coordinates: "
                    IsVisible="False"
                    TextColor="Black" />
-
         </Frame>
-
 
         <Button FontFamily="FontSolid" Text="{x:Static models:Icons.LocationCrosshairs}" Clicked="ToggleGridCoords"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
