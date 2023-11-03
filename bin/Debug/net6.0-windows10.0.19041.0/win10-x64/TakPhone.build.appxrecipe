@@ -37,15 +37,6 @@
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TakPhone.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\TakPhone\Fonts\fontawesome-free-6.4.2-desktop\metadata\icon-families.json">
-      <PackagePath>Fonts\fontawesome-free-6.4.2-desktop\metadata\icon-families.json</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\TakPhone\Fonts\fontawesome-free-6.4.2-desktop\metadata\icons.json">
-      <PackagePath>Fonts\fontawesome-free-6.4.2-desktop\metadata\icons.json</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\TakPhone\Fonts\fontawesome-free-6.4.2-desktop\metadata\shims.json">
-      <PackagePath>Fonts\fontawesome-free-6.4.2-desktop\metadata\shims.json</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\TakPhone.deps.json">
       <PackagePath>TakPhone.deps.json</PackagePath>
     </AppxPackagedFile>
@@ -891,6 +882,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\fa-solid-900.ttf">
+      <PackagePath>fa-solid-900.ttf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>

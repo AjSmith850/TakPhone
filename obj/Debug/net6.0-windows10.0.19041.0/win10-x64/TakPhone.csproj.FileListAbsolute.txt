@@ -667,9 +667,6 @@ C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-
 C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
 C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
 C:\Users\grace\Source\Repos\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
-E:\TakPhone\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Fonts\fontawesome-free-6.4.2-desktop\metadata\icon-families.json
-E:\TakPhone\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Fonts\fontawesome-free-6.4.2-desktop\metadata\icons.json
-E:\TakPhone\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Fonts\fontawesome-free-6.4.2-desktop\metadata\shims.json
 E:\TakPhone\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\TakPhone.exe
 E:\TakPhone\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 E:\TakPhone\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\TakPhone.deps.json
@@ -977,6 +974,7 @@ E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash
 E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
 E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
 E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauifont.stamp
+E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\fa-solid-900.ttf
 E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
 E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico

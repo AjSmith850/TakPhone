@@ -2053,9 +2053,6 @@ C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\assets\Sys
 C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 C:\Users\grace\source\repos\TakPhone\obj\Debug\net6.0-android\android\assets\System.Xml.dll
-E:\TakPhone\bin\Debug\net6.0-android\Fonts\fontawesome-free-6.4.2-desktop\metadata\icon-families.json
-E:\TakPhone\bin\Debug\net6.0-android\Fonts\fontawesome-free-6.4.2-desktop\metadata\icons.json
-E:\TakPhone\bin\Debug\net6.0-android\Fonts\fontawesome-free-6.4.2-desktop\metadata\shims.json
 E:\TakPhone\bin\Debug\net6.0-android\TakPhone.runtimeconfig.json
 E:\TakPhone\bin\Debug\net6.0-android\TakPhone.dll
 E:\TakPhone\bin\Debug\net6.0-android\TakPhone.pdb
@@ -2085,6 +2082,7 @@ E:\TakPhone\obj\Debug\net6.0-android\resizetizer\sp\drawable\maui_splash_image.x
 E:\TakPhone\obj\Debug\net6.0-android\resizetizer\sp\values\maui_colors.xml
 E:\TakPhone\obj\Debug\net6.0-android\mauisplash.stamp
 E:\TakPhone\obj\Debug\net6.0-android\mauifont.stamp
+E:\TakPhone\obj\Debug\net6.0-android\resizetizer\f\fa-solid-900.ttf
 E:\TakPhone\obj\Debug\net6.0-android\resizetizer\f\OpenSans-Regular.ttf
 E:\TakPhone\obj\Debug\net6.0-android\resizetizer\f\OpenSans-Semibold.ttf
 E:\TakPhone\obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png

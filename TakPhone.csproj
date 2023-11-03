@@ -49,6 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\fa-solid-900.ttf" />
 	  <None Remove="Resources\Images\mapEx.png" />
 	</ItemGroup>
 
