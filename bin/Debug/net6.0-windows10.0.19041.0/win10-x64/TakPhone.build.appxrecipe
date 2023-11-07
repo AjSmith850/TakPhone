@@ -868,6 +868,12 @@
     <AppxPackagedFile Include="E:\TakPhone\wwwroot\MapBox.html">
       <PackagePath>wwwroot\MapBox.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\TakPhone\wwwroot\MapBoxFunctions.js">
+      <PackagePath>wwwroot\MapBoxFunctions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\TakPhone\wwwroot\RequestNativeFeatures.js">
+      <PackagePath>wwwroot\RequestNativeFeatures.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>

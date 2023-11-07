@@ -29,29 +29,29 @@
     <AppXManifest Include="E:\TakPhone\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-03T22:53:23.988</Modified>
+      <Modified>2023-11-07T17:33:04.666</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\TakPhone\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-03T18:46:46.150</Modified>
+      <Modified>2023-11-07T17:33:04.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\TakPhone.runtimeconfig.json">
       <PackagePath>TakPhone.runtimeconfig.json</PackagePath>
-      <Modified>2023-11-03T18:15:56.400</Modified>
+      <Modified>2023-11-06T21:16:13.157</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\TakPhone.dll">
       <PackagePath>TakPhone.dll</PackagePath>
-      <Modified>2023-11-03T22:53:22.535</Modified>
+      <Modified>2023-11-07T17:33:03.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TakPhone.exe</PackagePath>
-      <Modified>2023-11-03T22:53:22.598</Modified>
+      <Modified>2023-11-07T17:33:03.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\TakPhone.deps.json">
       <PackagePath>TakPhone.deps.json</PackagePath>
-      <Modified>2023-11-03T18:46:46.046</Modified>
+      <Modified>2023-11-07T17:32:11.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anthony\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.24\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1155,27 +1155,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\wwwroot\MapBox.html">
       <PackagePath>wwwroot\MapBox.html</PackagePath>
-      <Modified>2023-11-03T17:59:30.915</Modified>
+      <Modified>2023-11-06T21:11:26.189</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\TakPhone\wwwroot\MapBoxFunctions.js">
+      <PackagePath>wwwroot\MapBoxFunctions.js</PackagePath>
+      <Modified>2023-11-07T17:31:26.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\TakPhone\wwwroot\RequestNativeFeatures.js">
+      <PackagePath>wwwroot\RequestNativeFeatures.js</PackagePath>
+      <Modified>2023-11-06T21:11:26.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-11-03T18:15:53.741</Modified>
+      <Modified>2023-11-06T21:16:10.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-11-03T18:15:53.753</Modified>
+      <Modified>2023-11-06T21:16:10.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-11-03T18:15:53.773</Modified>
+      <Modified>2023-11-06T21:16:10.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-11-03T18:15:53.817</Modified>
+      <Modified>2023-11-06T21:16:10.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.003</Modified>
+      <Modified>2023-11-06T21:16:10.782</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\fa-solid-900.ttf">
       <PackagePath>fa-solid-900.ttf</PackagePath>
@@ -1191,207 +1199,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-11-03T18:15:54.085</Modified>
+      <Modified>2023-11-06T21:16:10.814</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.361</Modified>
+      <Modified>2023-11-06T21:16:11.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.369</Modified>
+      <Modified>2023-11-06T21:16:11.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.385</Modified>
+      <Modified>2023-11-06T21:16:11.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.411</Modified>
+      <Modified>2023-11-06T21:16:11.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.471</Modified>
+      <Modified>2023-11-06T21:16:11.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.157</Modified>
+      <Modified>2023-11-06T21:16:10.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.161</Modified>
+      <Modified>2023-11-06T21:16:10.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.177</Modified>
+      <Modified>2023-11-06T21:16:10.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.161</Modified>
+      <Modified>2023-11-06T21:16:10.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.169</Modified>
+      <Modified>2023-11-06T21:16:10.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.136</Modified>
+      <Modified>2023-11-06T21:16:10.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.140</Modified>
+      <Modified>2023-11-06T21:16:10.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.153</Modified>
+      <Modified>2023-11-06T21:16:10.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.140</Modified>
+      <Modified>2023-11-06T21:16:10.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.145</Modified>
+      <Modified>2023-11-06T21:16:10.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.100</Modified>
+      <Modified>2023-11-06T21:16:10.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.100</Modified>
+      <Modified>2023-11-06T21:16:10.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.104</Modified>
+      <Modified>2023-11-06T21:16:10.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.108</Modified>
+      <Modified>2023-11-06T21:16:10.836</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.116</Modified>
+      <Modified>2023-11-06T21:16:10.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.117</Modified>
+      <Modified>2023-11-06T21:16:10.844</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.120</Modified>
+      <Modified>2023-11-06T21:16:10.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.132</Modified>
+      <Modified>2023-11-06T21:16:10.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.124</Modified>
+      <Modified>2023-11-06T21:16:10.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.124</Modified>
+      <Modified>2023-11-06T21:16:10.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.229</Modified>
+      <Modified>2023-11-06T21:16:10.940</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.233</Modified>
+      <Modified>2023-11-06T21:16:10.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.241</Modified>
+      <Modified>2023-11-06T21:16:10.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.253</Modified>
+      <Modified>2023-11-06T21:16:10.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.273</Modified>
+      <Modified>2023-11-06T21:16:10.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.205</Modified>
+      <Modified>2023-11-06T21:16:10.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.209</Modified>
+      <Modified>2023-11-06T21:16:10.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.213</Modified>
+      <Modified>2023-11-06T21:16:10.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.217</Modified>
+      <Modified>2023-11-06T21:16:10.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.225</Modified>
+      <Modified>2023-11-06T21:16:10.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.181</Modified>
+      <Modified>2023-11-06T21:16:10.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.185</Modified>
+      <Modified>2023-11-06T21:16:10.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.189</Modified>
+      <Modified>2023-11-06T21:16:10.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.193</Modified>
+      <Modified>2023-11-06T21:16:10.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.201</Modified>
+      <Modified>2023-11-06T21:16:10.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.277</Modified>
+      <Modified>2023-11-06T21:16:10.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.285</Modified>
+      <Modified>2023-11-06T21:16:10.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.293</Modified>
+      <Modified>2023-11-06T21:16:11.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.309</Modified>
+      <Modified>2023-11-06T21:16:11.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.349</Modified>
+      <Modified>2023-11-06T21:16:11.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.082</Modified>
+      <Modified>2023-11-06T21:16:10.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.092</Modified>
+      <Modified>2023-11-06T21:16:10.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.108</Modified>
+      <Modified>2023-11-06T21:16:10.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.128</Modified>
+      <Modified>2023-11-06T21:16:10.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-11-03T18:15:54.185</Modified>
+      <Modified>2023-11-06T21:16:10.900</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\TakPhone\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mapex.scale-100.png">
       <PackagePath>mapex.scale-100.png</PackagePath>

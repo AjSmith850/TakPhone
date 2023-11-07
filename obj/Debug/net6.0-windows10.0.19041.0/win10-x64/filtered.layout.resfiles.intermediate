@@ -61,3 +61,5 @@ splashSplashScreen.scale-400.png
 AboutAssets.txt
 wwwroot\MapBox.html
 wwwroot\MapBox.html
+wwwroot\MapBoxFunctions.js
+wwwroot\RequestNativeFeatures.js
