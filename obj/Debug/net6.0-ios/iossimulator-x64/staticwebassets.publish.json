@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rRbe77kAk7JPB4TFyO7LaRi0+GKiw9gxnYGFv+notPE=",
+  "Hash": "3Ta/agO2K9HJVhi6hEwKYc4VFc5MAHtp1T4RCzBhCGw=",
   "Source": "TakPhone",
   "BasePath": "/",
   "Mode": "Root",
@@ -32,6 +32,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\MapBox.html"
+    },
+    {
+      "Identity": "E:\\TakPhone\\wwwroot\\MapBoxFunctions.js",
+      "SourceId": "TakPhone",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\TakPhone\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "MapBoxFunctions.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MapBoxFunctions.js"
+    },
+    {
+      "Identity": "E:\\TakPhone\\wwwroot\\RequestNativeFeatures.js",
+      "SourceId": "TakPhone",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\TakPhone\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "RequestNativeFeatures.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\RequestNativeFeatures.js"
     }
   ]
 }

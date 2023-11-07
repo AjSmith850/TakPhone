@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\MapBox.html"
     },
     {
+      "Id": "E:\\TakPhone\\wwwroot\\MapBoxFunctions.js",
+      "PackagePath": "staticwebassets\\MapBoxFunctions.js"
+    },
+    {
+      "Id": "E:\\TakPhone\\wwwroot\\RequestNativeFeatures.js",
+      "PackagePath": "staticwebassets\\RequestNativeFeatures.js"
+    },
+    {
       "Id": "obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.TakPhone.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
