@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9en9a6blxmo4IxaI46eLjnDuvFskDe2fngQjCRSDrmE=",
+  "Hash": "6wtBec9ujzSBjwoxk1EcRZhbRo6P21mEOvo1pmfCMLc=",
   "Source": "TakPhone",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,17 @@
     {
       "Name": "TakPhone\\wwwroot",
       "Source": "TakPhone",
-      "ContentRoot": "E:\\TakPhone\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\grace\\OneDrive\\Desktop\\TakPhone\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\TakPhone\\wwwroot\\MapBox.html",
+      "Identity": "C:\\Users\\grace\\OneDrive\\Desktop\\TakPhone\\wwwroot\\MapBox.html",
       "SourceId": "TakPhone",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TakPhone\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\grace\\OneDrive\\Desktop\\TakPhone\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "MapBox.html",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\MapBox.html"
     },
     {
-      "Identity": "E:\\TakPhone\\wwwroot\\MapBoxFunctions.js",
+      "Identity": "C:\\Users\\grace\\OneDrive\\Desktop\\TakPhone\\wwwroot\\MapBoxFunctions.js",
       "SourceId": "TakPhone",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TakPhone\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\grace\\OneDrive\\Desktop\\TakPhone\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "MapBoxFunctions.js",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\MapBoxFunctions.js"
     },
     {
-      "Identity": "E:\\TakPhone\\wwwroot\\RequestNativeFeatures.js",
+      "Identity": "C:\\Users\\grace\\OneDrive\\Desktop\\TakPhone\\wwwroot\\RequestNativeFeatures.js",
       "SourceId": "TakPhone",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TakPhone\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\grace\\OneDrive\\Desktop\\TakPhone\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "RequestNativeFeatures.js",
       "AssetKind": "All",
