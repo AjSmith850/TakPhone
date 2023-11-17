@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TakPhone.Views.WeatherPage"
+             Title="WeatherPage">
+
+    <WebView>
+        <WebView.Source>
+            <HtmlWebViewSource>
+                <HtmlWebViewSource.Html>
+                    <![CDATA[
+<html>
+    <head>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+        />
+        <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+        <script src="https://api.windy.com/assets/map-forecast/libBoot.js"></script>
+        <style>
+            #windy {
+                width: 100%;
+                height: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="windy"></div>
+        <script>
+            const options = {
+                // Required: API key
+                key: 'RYu8Nfu3xPNgCr8yrxx1MJavgkILj0DS', // REPLACE WITH YOUR KEY !!!
+
+                // Put additional console output
+                verbose: true,
+
+                // Optional: Initial state of the map
+                lat: 50.4,
+                lon: 14.3,
+                zoom: 5,
+            };
+
+            // Initialize Windy API
+            windyInit(options, windyAPI => {
+                // windyAPI is ready, and contain 'map', 'store',
+                // 'picker' and other useful stuff
+
+                const { map } = windyAPI;
+                // .map is an instance of the Leaflet map
+
+                L.popup()
+                    .setLatLng([50.4, 14.3])
+                    .setContent('Hello World')
+                    .openOn(map);
+            });
+        </script>
+    </body>
+</html>
+]]>
+
+                </HtmlWebViewSource.Html>
+            </HtmlWebViewSource>
+        </WebView.Source>
+    </WebView>
+
+</ContentPage>
