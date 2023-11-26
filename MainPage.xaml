@@ -1,32 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentPage x:Class="TakPhone.MainPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:TakPhone.Models"
              Title="TakPhone"
-             x:Class="TakPhone.MainPage">
+             
+             xmlns:blazor="clr-namespace:Microsoft.AspNetCore.Components.WebView.Maui;assembly=Microsoft.AspNetCore.Components.WebView.Maui"
+             
+             xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013"
+             xmlns:local="clr-namespace:TakPhone"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#4B5320">
 
-    <VerticalStackLayout
-        Spacing="5">
+    <Grid ColumnDefinitions="*,*"
+              ColumnSpacing="5"
+              RowDefinitions="*,*,*"
+              RowSpacing="5">
 
-        <Image
-                Source="mapex.png"
-                HeightRequest="675"
-                Aspect="AspectFill"
-                HorizontalOptions="Center" />
+        <Frame x:Name="gridCoorFrame" Grid.Row="0" Grid.Column="0" BackgroundColor="DarkSeaGreen" CornerRadius="5" Margin="10">
+            <StackLayout>
+                <Label FontFamily="FontSolid" 
+                       Text="{x:Static models:Icons.MapPin}" 
+                       FontSize="50" 
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"></Label>
+                <Label x:Name="coordinatesLabel" 
+                       Text="Grid Coordinates:" 
+                       TextColor="SaddleBrown" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </Frame>
 
-        <HorizontalStackLayout
-            Spacing="5">
+        <Frame x:Name="cardDirFrame" Grid.Row="0" Grid.Column="1" BackgroundColor="DarkSeaGreen" CornerRadius="5" Margin="10">
+            <StackLayout>
+                <Label FontFamily="FontSolid" 
+                       Text="{x:Static models:Icons.Compass}" 
+                       FontSize="50" 
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"></Label>
+                <Label x:Name="directionLabel" 
+                       Text="Cardinal Direction:" 
+                       TextColor="SaddleBrown" 
+                       FontAttributes="Bold" 
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </Frame>
 
-            <Button
-                    x:Name="CounterBtn"
-                    Text="Compass"/>
-            <Button
-                    x:Name="Button2"
-                    Text="Coordinates"/>
-            <Button
-                    x:Name="Button3"
-                    Text="Topographical"/>
-        </HorizontalStackLayout>
 
-    </VerticalStackLayout>
+        <Frame Grid.Row="1" 
+               Grid.RowSpan="2" 
+               Grid.Column="0" 
+               Grid.ColumnSpan="2" 
+               CornerRadius="2" 
+               Margin="0"
+               Padding="0">
+            <ContentPage.Resources>
+                <local:MapViewModel x:Key="MapViewModel" />
+            </ContentPage.Resources>
+            <esri:MapView x:Name="MainMapView" Map="{Binding Map, Source={StaticResource MapViewModel}}" />
+        </Frame>
+
+    </Grid>
 
 </ContentPage>

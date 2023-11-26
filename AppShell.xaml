@@ -7,7 +7,8 @@
     Title="TakPhone"
     FlyoutBackgroundColor="{AppThemeBinding
                     Dark={StaticResource WindowBackgroundColorDark},
-                    Light={StaticResource WindowBackgroundColor}}">
+                    Light={StaticResource WindowBackgroundColor}}"
+    Shell.NavBarIsVisible="False">
 
 
     <Shell.Resources>
@@ -25,6 +26,7 @@
             </Style>
             <Style BasedOn="{StaticResource BaseStyle}" TargetType="TabBar" />
             <Style BasedOn="{StaticResource BaseStyle}" TargetType="FlyoutItem" />
+
 
             <!--
                 Default Styles for all Flyout Items
@@ -80,7 +82,7 @@
     </Shell.Resources>
 
 
-    <FlyoutItem Title="Home">
+    <FlyoutItem Title="Topographical">
         <FlyoutItem.Icon>
             <FontImageSource FontFamily="FAS"
                              Color="{AppThemeBinding 
@@ -90,26 +92,15 @@
         <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage"/>
     </FlyoutItem>
 
-    <FlyoutItem Title="About">
+    <FlyoutItem Title="Forecast">
         <FlyoutItem.Icon>
             <FontImageSource FontFamily="FAS"
                              Color="{AppThemeBinding 
                                     Dark=White, 
                                     Light={StaticResource Black}}"/>
         </FlyoutItem.Icon>
-        <ShellContent ContentTemplate="{DataTemplate local:Views.AboutPage}" Route="AboutPage"/>
+        <ShellContent ContentTemplate="{DataTemplate local:Views.WindyForecast}" Route="WindyForecast"/>
     </FlyoutItem>
-
-    <FlyoutItem Title="Settings">
-        <FlyoutItem.Icon>
-            <FontImageSource FontFamily="FAS"
-                             Color="{AppThemeBinding 
-                                    Dark=White, 
-                                    Light={StaticResource Black}}"/>
-        </FlyoutItem.Icon>
-        <ShellContent ContentTemplate="{DataTemplate local:Views.SettingsPage}" Route="SettingsPage"/>
-    </FlyoutItem>
-
 
 
 </Shell>
