@@ -17,37 +17,23 @@
               RowDefinitions="*,*,*"
               RowSpacing="5">
 
-        <Frame x:Name="gridCoorFrame" Grid.Row="0" Grid.Column="0" BackgroundColor="DarkSeaGreen" CornerRadius="5" Margin="10">
-            <StackLayout>
-                <Label FontFamily="FontSolid" 
-                       Text="{x:Static models:Icons.MapPin}" 
-                       FontSize="50" 
-                       VerticalOptions="CenterAndExpand"
-                       HorizontalOptions="CenterAndExpand"></Label>
-                <Label x:Name="coordinatesLabel" 
-                       Text="Grid Coordinates:" 
-                       TextColor="SaddleBrown" 
-                       FontAttributes="Bold" 
-                       HorizontalOptions="CenterAndExpand"
-                       VerticalOptions="CenterAndExpand"/>
-            </StackLayout>
-        </Frame>
+        <Button x:Name="gridCoordButton" Grid.Row="0" Grid.Column="0" BackgroundColor="DarkSeaGreen" CornerRadius="5" Margin="10"
+                Clicked="UpdateGridCoordinates" TextColor="Black">
+            <Button.ImageSource>
+                <FontImageSource FontFamily="FontSolid" 
+                         Glyph="{x:Static models:Icons.MapPin}" 
+                         Color="Black" />
+            </Button.ImageSource>
+        </Button>
 
-        <Frame x:Name="cardDirFrame" Grid.Row="0" Grid.Column="1" BackgroundColor="DarkSeaGreen" CornerRadius="5" Margin="10">
-            <StackLayout>
-                <Label FontFamily="FontSolid" 
-                       Text="{x:Static models:Icons.Compass}" 
-                       FontSize="50" 
-                       VerticalOptions="CenterAndExpand"
-                       HorizontalOptions="CenterAndExpand"></Label>
-                <Label x:Name="directionLabel" 
-                       Text="Cardinal Direction:" 
-                       TextColor="SaddleBrown" 
-                       FontAttributes="Bold" 
-                       VerticalOptions="CenterAndExpand"
-                       HorizontalOptions="CenterAndExpand"/>
-            </StackLayout>
-        </Frame>
+        <Button x:Name="cardDirButton" Grid.Row="0" Grid.Column="1" BackgroundColor="DarkSeaGreen" CornerRadius="5" Margin="10" 
+                Clicked="UpdateCardinalDirection" TextColor="Black">
+            <Button.ImageSource>
+                <FontImageSource FontFamily="FontSolid" 
+                         Glyph="{x:Static models:Icons.Compass}" 
+                         Color="Black" />
+            </Button.ImageSource>
+        </Button>
 
 
         <Frame Grid.Row="1" 
