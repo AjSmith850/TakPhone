@@ -12,43 +12,41 @@
              Shell.NavBarIsVisible="False"
              BackgroundColor="#4B5320">
 
-    <Grid ColumnDefinitions="*,*"
-              ColumnSpacing="5"
-              RowDefinitions="*,*,*"
-              RowSpacing="5">
 
-        <Button x:Name="gridCoordButton" Grid.Row="0" Grid.Column="0" BackgroundColor="DarkSeaGreen" CornerRadius="5" Margin="10"
-                Clicked="UpdateGridCoordinates" TextColor="Black">
-            <Button.ImageSource>
-                <FontImageSource FontFamily="FontSolid" 
-                         Glyph="{x:Static models:Icons.MapPin}" 
-                         Color="Black" />
-            </Button.ImageSource>
-        </Button>
+    <AbsoluteLayout>
 
-        <Button x:Name="cardDirButton" Grid.Row="0" Grid.Column="1" BackgroundColor="DarkSeaGreen" CornerRadius="5" Margin="10" 
-                Clicked="UpdateCardinalDirection" TextColor="Black">
-            <Button.ImageSource>
-                <FontImageSource FontFamily="FontSolid" 
-                         Glyph="{x:Static models:Icons.Compass}" 
-                         Color="Black" />
-            </Button.ImageSource>
-        </Button>
-
-
-        <Frame Grid.Row="1" 
-               Grid.RowSpan="2" 
-               Grid.Column="0" 
-               Grid.ColumnSpan="2" 
-               CornerRadius="2" 
-               Margin="0"
-               Padding="0">
+        <Frame AbsoluteLayout.LayoutBounds="0,0,1,1" 
+               AbsoluteLayout.LayoutFlags="All">
             <ContentPage.Resources>
                 <local:MapViewModel x:Key="MapViewModel" />
             </ContentPage.Resources>
             <esri:MapView x:Name="MainMapView" Map="{Binding Map, Source={StaticResource MapViewModel}}" />
         </Frame>
 
-    </Grid>
 
+        <Button x:Name="gridCoordButton" FontFamily="FontSolid" Text="{x:Static models:Icons.LocationCrosshairs}" 
+                TextColor="#4B5320" Margin="10" FontSize="20"
+                Clicked="ToggleGridCoords" BackgroundColor="#408fbc8f"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds=".98, 0.88, AutoSize, AutoSize">
+        </Button>
+
+        <Button x:Name="cardDirButton" BackgroundColor="#408fbc8f" Margin="10" 
+                Clicked="UpdateCardinalDirection" TextColor="#4B5320" FontSize="20"
+                FontFamily="FontSolid" Text="{x:Static models:Icons.Compass}"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds=".98, 0.8, AutoSize, AutoSize">
+        </Button>
+
+        <Button Clicked="ToggleFlyout"
+                BackgroundColor="#4B5320"
+                TextColor="White"
+                FontFamily="FontSolid" Text="{x:Static models:Icons.Bars}"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds=".02, 0.01, AutoSize, AutoSize">
+        </Button>
+
+    </AbsoluteLayout>
+
+   
 </ContentPage>

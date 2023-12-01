@@ -35,6 +35,45 @@ public partial class MainPage : ContentPage{
         MainMapView.LocationDisplay.AutoPanMode = LocationDisplayAutoPanMode.Recenter;
     }
 
+
+
+    private void OnSizeChanged(object sender, EventArgs e)
+    {
+        var width = DeviceDisplay.MainDisplayInfo.Width;
+        var height = DeviceDisplay.MainDisplayInfo.Height;
+
+        this.Dispatcher.Dispatch(() =>
+        {
+            if (width > height)
+            {
+                AbsoluteLayout.SetLayoutBounds(gridCoordButton, new Rect(0.98, 0.8, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));
+                AbsoluteLayout.SetLayoutBounds(cardDirButton, new Rect(0.98, 0.6, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));
+            }
+            else
+            {
+                AbsoluteLayout.SetLayoutBounds(gridCoordButton, new Rect(0.98, 0.88, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));
+                AbsoluteLayout.SetLayoutBounds(cardDirButton, new Rect(0.98, 0.8, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));
+            }
+        });
+
+
+    }
+
+    private void UpdateCardinalDirection(object sender, EventArgs e)
+    {
+        Compass.ReadingChanged += OnCompassReadingChanged;
+        Compass.Start(SensorSpeed.UI);
+    }
+
+    private void OnCompassReadingChanged(object sender, CompassChangedEventArgs e)
+    {
+        var heading = e.Reading.HeadingMagneticNorth;
+        string cardinalDirection = CalculateCardinalDirection(heading);
+        cardDirButton.Text = cardinalDirection;
+        cardDirButton.FontSize = 30;
+        Compass.Stop();
+    }
+
     private string CalculateCardinalDirection(double heading)
     {
         heading = (heading + 360) % 360;
@@ -60,47 +99,28 @@ public partial class MainPage : ContentPage{
     }
 
 
-
-    private void OnSizeChanged(object sender, EventArgs e)
+    private async void ToggleGridCoords(object sender, EventArgs e)
     {
-        var width = DeviceDisplay.MainDisplayInfo.Width;
-        var height = DeviceDisplay.MainDisplayInfo.Height;
-        
+
+        var location = await Geolocation.GetLastKnownLocationAsync();
+
+        double latitude = location.Latitude;
+        double longitude = location.Longitude;
+
+        // Format to 5 decimals
+        string formattedLatitude = latitude.ToString("F5");
+        string formattedLongitude = longitude.ToString("F5");
+
+        gridCoordButton.Text = $"({formattedLatitude}, {formattedLongitude})";
+
     }
 
-    private void UpdateCardinalDirection(object sender, EventArgs e)
+    private void ToggleFlyout(object sender, EventArgs e)
     {
-        Compass.ReadingChanged += (s, e) =>
-        {
-            var heading = e.Reading.HeadingMagneticNorth;
-
-            string cardinalDirection = CalculateCardinalDirection(heading);
-
-            cardDirButton.Text = "Cardinal Direction: " + cardinalDirection;
-        };
+        Shell.Current.FlyoutIsPresented = true;
     }
+    
 
-    private void UpdateGridCoordinates(object sender, EventArgs e)
-    {
-        Task.Run(async () =>
-        {
-            var location = await Geolocation.GetLastKnownLocationAsync();
-
-            Dispatcher.Dispatch(() =>
-            {
-                if (location != null)
-                {
-                    double latitude = location.Latitude;
-                    double longitude = location.Longitude;
-                    gridCoordButton.Text = $"Grid Coordinates: ({latitude}, {longitude})";
-                }
-                else
-                {
-                    gridCoordButton.Text = "Unable to retrieve location.";
-                }
-            });
-        });
-    }
 
 
 }
