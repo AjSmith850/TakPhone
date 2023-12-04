@@ -12,6 +12,7 @@
 
 
     <Shell.Resources>
+
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
                 <Setter Property="Shell.BackgroundColor" Value="{AppThemeBinding Dark=Green, Light=Green}" />
@@ -27,12 +28,6 @@
             </Style>
             <Style BasedOn="{StaticResource BaseStyle}" TargetType="TabBar" />
             <Style BasedOn="{StaticResource BaseStyle}" TargetType="FlyoutItem" />
-
-
-            <!--
-                Default Styles for all Flyout Items
-                https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#flyoutitem-and-menuitem-style-classes
-            -->
             <Style Class="FlyoutItemLabelStyle" TargetType="Label">
                 <Setter Property="TextColor" Value="White" />
             </Style>
@@ -60,9 +55,6 @@
                 </Setter>
             </Style>
 
-            <!--
-                Custom Style you can apply to any Flyout Item
-            -->
             <Style
                 ApplyToDerivedTypes="True"
                 Class="MenuItemLayoutStyle"
@@ -81,7 +73,6 @@
             </Style>
         </ResourceDictionary>
     </Shell.Resources>
-
 
     <FlyoutItem Title="Topographical">
         <FlyoutItem.Icon>
@@ -103,5 +94,16 @@
         <ShellContent ContentTemplate="{DataTemplate local:Views.WindyForecast}" Route="WindyForecast"/>
     </FlyoutItem>
 
+    <FlyoutItem Title="Saved Locations">
+        <FlyoutItem.Icon>
+            <FontImageSource FontFamily="FAS"
+                             Color="{AppThemeBinding 
+                                    Dark=White, 
+                                    Light={StaticResource Black}}"/>
+        </FlyoutItem.Icon>
+        <ShellContent ContentTemplate="{DataTemplate local:Views.SavedLocationsPage}" Route="SavedLocationsPage"/>
+    </FlyoutItem>
 
 </Shell>
+
+
