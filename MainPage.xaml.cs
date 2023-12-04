@@ -4,6 +4,7 @@ using Microsoft.Maui.Graphics;
 
 using Esri.ArcGISRuntime.UI;
 using System.ComponentModel;
+using TakPhone.Models;
 
 
 public partial class MainPage : ContentPage{
@@ -115,13 +116,44 @@ public partial class MainPage : ContentPage{
 
     }
 
+    private async void OnGridCoordButtonLongPressed(object sender, EventArgs e)
+    {
+        var location = await Geolocation.GetLastKnownLocationAsync();
+
+        if (location != null)
+        {
+            double latitude = location.Latitude;
+            double longitude = location.Longitude;
+
+            // Prompt the user for a name for the location
+            string name = await DisplayPromptAsync("Location Name", "Enter a name for this location:");
+
+            if (!string.IsNullOrEmpty(name))
+            {
+                // Create a new GridLocation object
+                var newLocation = new SavedLocationsViewModel.GridLocation
+                {
+                    Latitude = latitude,
+                    Longitude = longitude,
+                    Name = name
+                };
+
+                // Add the new location to the collection
+                (BindingContext as SavedLocationsViewModel)?.AddLocation(newLocation);
+            }
+
+            // Format to 5 decimals
+            string formattedLatitude = latitude.ToString("F5");
+            string formattedLongitude = longitude.ToString("F5");
+
+            gridCoordButton.Text = $"({formattedLatitude}, {formattedLongitude})";
+        }
+    }
+
     private void ToggleFlyout(object sender, EventArgs e)
     {
         Shell.Current.FlyoutIsPresented = true;
     }
     
-
-
-
 }
 

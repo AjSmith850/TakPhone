@@ -15,8 +15,7 @@
 
     <AbsoluteLayout>
 
-        <Frame AbsoluteLayout.LayoutBounds="0,0,1,1" 
-               AbsoluteLayout.LayoutFlags="All">
+        <Frame AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Margin="0" Padding="0" CornerRadius="0">
             <ContentPage.Resources>
                 <local:MapViewModel x:Key="MapViewModel" />
             </ContentPage.Resources>
