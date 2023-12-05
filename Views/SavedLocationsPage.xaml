@@ -44,7 +44,7 @@
                     Clicked="SaveCurrentLocationToViewModel"
                     Text="Save Current Grid"
                     TextColor="#4B5320"
-                    FontSize="15"
+                    FontSize="16"
                     FontFamily="FontSolid"
                     BackgroundColor="#408fbc8f"
                     Margin="10"

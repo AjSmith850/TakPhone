@@ -41,7 +41,7 @@ public partial class SavedLocationsPage : ContentPage
                 double longitude = location.Longitude;
 
                 var viewModel = BindingContext as SavedLocationsViewModel;
-                viewModel?.SaveCurrentLocation(latitude, longitude, locationName);
+                viewModel?.SaveCurrentLocation(latitude, longitude, locationName);//
             }
         }
     }
