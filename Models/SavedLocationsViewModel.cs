@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using TakPhone.Models;
 
 namespace TakPhone.Models
@@ -18,6 +19,9 @@ namespace TakPhone.Models
             public double Longitude { get; set; }
             public string Name { get; set; }
         }
+
+        public ICommand SaveCurrentLocationCommand { get; private set; }
+
 
         private ObservableCollection<GridLocation> savedLocations = new ObservableCollection<GridLocation>();
 
@@ -44,7 +48,14 @@ namespace TakPhone.Models
         {
             savedLocations.Remove(location);
             OnPropertyChanged(nameof(SavedLocations));
+
         }
+
+        public void SaveCurrentLocation(double latitude, double longitude, string name)
+        {
+            AddLocation(new GridLocation { Latitude = latitude, Longitude = longitude, Name = name });
+        }
+
 
         public event PropertyChangedEventHandler PropertyChanged;
 
