@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="TakPhone.MainPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:TakPhone.Models"
+             Title="TakPhone"
+             
+             xmlns:blazor="clr-namespace:Microsoft.AspNetCore.Components.WebView.Maui;assembly=Microsoft.AspNetCore.Components.WebView.Maui"
+             
+             xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013"
+             xmlns:local="clr-namespace:TakPhone"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#4B5320">
+
+
+    <AbsoluteLayout>
+
+        <Frame AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Margin="0" Padding="0" CornerRadius="0">
+            <ContentPage.Resources>
+                <local:MapViewModel x:Key="MapViewModel" />
+            </ContentPage.Resources>
+            <esri:MapView x:Name="MainMapView" Map="{Binding Map, Source={StaticResource MapViewModel}}" />
+        </Frame>
+
+
+        <Button x:Name="gridCoordButton" FontFamily="FontSolid" Text="{x:Static models:Icons.LocationCrosshairs}" 
+                TextColor="#4B5320" Margin="10" FontSize="20"
+                Clicked="ToggleGridCoords" BackgroundColor="#408fbc8f"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds=".98, 0.88, AutoSize, AutoSize">
+        </Button>
+
+        <Button x:Name="cardDirButton" BackgroundColor="#408fbc8f" Margin="10" 
+                Clicked="UpdateCardinalDirection" TextColor="#4B5320" FontSize="20"
+                FontFamily="FontSolid" Text="{x:Static models:Icons.Compass}"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds=".98, 0.8, AutoSize, AutoSize">
+        </Button>
+
+        <Button Clicked="ToggleFlyout"
+                BackgroundColor="#4B5320"
+                TextColor="White"
+                FontFamily="FontSolid" Text="{x:Static models:Icons.Bars}"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds=".02, 0.01, AutoSize, AutoSize">
+        </Button>
+
+    </AbsoluteLayout>
+
+   
+</ContentPage>

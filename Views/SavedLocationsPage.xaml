@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TakPhone.Views.SavedLocationsPage"
+             
+             xmlns:viewModels="clr-namespace:TakPhone.Models"
+             xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013"
+             xmlns:local="clr-namespace:TakPhone">
+
+    <ContentView.BindingContext>
+        <viewModels:SavedLocationsViewModel />
+    </ContentView.BindingContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <CollectionView Grid.Column="0" ItemsSource="{Binding SavedLocations}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding Name} " />
+                        <Label Text="{Binding Latitude} " />
+                        <Label Text="{Binding Longitude}" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+        <Frame Grid.Column="1" Margin="0" Padding="0" CornerRadius="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <ContentPage.Resources>
+                    <local:MapViewModel x:Key="MapViewModel" />
+                </ContentPage.Resources>
+                <esri:MapView x:Name="MainMapView" Map="{Binding Map, Source={StaticResource MapViewModel}}" />
+
+                <Button 
+                    Clicked="SaveCurrentLocationToViewModel"
+                    Text="Save Current Grid"
+                    TextColor="#4B5320"
+                    FontSize="15"
+                    FontFamily="FontSolid"
+                    BackgroundColor="#408fbc8f"
+                    Margin="10"
+                    HeightRequest="40"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="End" />
+            </Grid>
+        </Frame>
+    </Grid>
+
+</ContentPage>
