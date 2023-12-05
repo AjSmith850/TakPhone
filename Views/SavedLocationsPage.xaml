@@ -21,15 +21,15 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="{Binding Name}" />
-                        <Label Text="{Binding Latitude}" />
+                        <Label Text="{Binding Name} " />
+                        <Label Text="{Binding Latitude} " />
                         <Label Text="{Binding Longitude}" />
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
         
-        <Frame Grid.Column="1" Margin="0" Padding="0">
+        <Frame Grid.Column="1" Margin="0" Padding="0" CornerRadius="0">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
@@ -39,10 +39,14 @@
                     <local:MapViewModel x:Key="MapViewModel" />
                 </ContentPage.Resources>
                 <esri:MapView x:Name="MainMapView" Map="{Binding Map, Source={StaticResource MapViewModel}}" />
-                
-                <Button Text="Save Current Grid"
+
+                <Button 
+                    Clicked="SaveCurrentLocationToViewModel"
+                    Text="Save Current Grid"
                     TextColor="#4B5320"
-                    BackgroundColor="Transparent"
+                    FontSize="16"
+                    FontFamily="FontSolid"
+                    BackgroundColor="#408fbc8f"
                     Margin="10"
                     HeightRequest="40"
                     HorizontalOptions="Fill"
