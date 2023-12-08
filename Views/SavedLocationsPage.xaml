@@ -20,11 +20,50 @@
         <CollectionView Grid.Column="0" ItemsSource="{Binding SavedLocations}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="{Binding Name} " />
-                        <Label Text="{Binding Latitude} " />
-                        <Label Text="{Binding Longitude}" />
-                    </StackLayout>
+                    <VerticalStackLayout>
+                        <Label Text="{Binding Name} "
+                               HorizontalTextAlignment="Start"
+                               VerticalTextAlignment="Start"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand"
+                               TextColor="White"
+                               FontSize="10"
+                               FontFamily="FontSolid"
+                               />
+                        <StackLayout Orientation="Horizontal">
+
+                            <Label Text="{Binding Latitude} "
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand"
+                               TextColor="White"
+                               FontSize="14"
+                               FontFamily="FontSolid"
+                               />
+                            <Label Text="{Binding Longitude} "
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand"
+                               TextColor="#4B5320"
+                               FontSize="10"
+                               FontFamily="FontSolid"
+                               />
+                            <Button Text="Delete_Location"
+                                TextColor="White"
+                                FontSize="16"
+                                FontFamily="FontSolid"
+                                BackgroundColor="#408fbc8f"
+                                Margin="8"
+                                HeightRequest="40"
+                                HorizontalOptions="Fill"
+                                VerticalOptions="End">
+
+                            </Button>
+                        </StackLayout>
+                    </VerticalStackLayout>
+
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
@@ -42,7 +81,7 @@
 
                 <Button 
                     Clicked="SaveCurrentLocationToViewModel"
-                    Text="Save Current Grid"
+                    Text="Save_Current_Grid"
                     TextColor="#4B5320"
                     FontSize="16"
                     FontFamily="FontSolid"
