@@ -22,13 +22,12 @@
                 <DataTemplate>
                     <VerticalStackLayout>
                         <Label Text="{Binding Name} "
-                               HorizontalTextAlignment="Start"
-                               VerticalTextAlignment="Start"
-                               HorizontalOptions="CenterAndExpand"
-                               VerticalOptions="CenterAndExpand"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               HorizontalOptions="StartAndExpand"
+                               VerticalOptions="StartAndExpand"
                                TextColor="White"
-                               FontSize="10"
-                               FontFamily="FontSolid"
+                               FontSize="20"
                                />
                         <StackLayout Orientation="Horizontal">
 
@@ -46,21 +45,25 @@
                                VerticalTextAlignment="Center"
                                HorizontalOptions="CenterAndExpand"
                                VerticalOptions="CenterAndExpand"
-                               TextColor="#4B5320"
-                               FontSize="10"
+                               TextColor="White"
+                               FontSize="14"
                                FontFamily="FontSolid"
                                />
-                            <Button Text="Delete_Location"
-                                TextColor="White"
-                                FontSize="16"
-                                FontFamily="FontSolid"
-                                BackgroundColor="#408fbc8f"
-                                Margin="8"
-                                HeightRequest="40"
-                                HorizontalOptions="Fill"
-                                VerticalOptions="End">
-
+                            <Button Text="Delete Location"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type CollectionView}}, Path=BindingContext.DeleteLocationsCommand}"
+                                    CommandParameter="{Binding .}"
+                                    TextColor="Red"
+                                    FontSize="16"
+                                    BackgroundColor="#408fbc8f"
+                                    Margin="8"
+                                    HeightRequest="40"
+                                    HorizontalOptions="Fill"
+                                    VerticalOptions="End">
+                                <Button.ImageSource>
+                                    <FileImageSource File="icon_delete.png" />
+                                </Button.ImageSource>
                             </Button>
+
                         </StackLayout>
                     </VerticalStackLayout>
 
@@ -81,10 +84,10 @@
 
                 <Button 
                     Clicked="SaveCurrentLocationToViewModel"
-                    Text="Save_Current_Grid"
+                    Text="Save Current Grid"
                     TextColor="#4B5320"
-                    FontSize="16"
-                    FontFamily="FontSolid"
+                    FontSize="20"
+                    FontAttributes="Bold"
                     BackgroundColor="#408fbc8f"
                     Margin="10"
                     HeightRequest="40"
