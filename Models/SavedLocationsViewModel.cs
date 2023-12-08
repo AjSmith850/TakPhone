@@ -21,9 +21,15 @@ namespace TakPhone.Models
         }
 
         public ICommand SaveCurrentLocationCommand { get; private set; }
+        public ICommand DeleteLocationsCommand { get; private set; }
 
 
         private ObservableCollection<GridLocation> savedLocations = new ObservableCollection<GridLocation>();
+
+        public SavedLocationsViewModel() 
+        {
+            DeleteLocationsCommand = new RelayCommand<GridLocation>(RemoveLocation);
+        }
 
         public ObservableCollection<GridLocation> SavedLocations
         {
@@ -44,16 +50,30 @@ namespace TakPhone.Models
             OnPropertyChanged(nameof(SavedLocations));
         }
 
-        public void RemoveLocation(GridLocation location)
-        {
-            savedLocations.Remove(location);
-            OnPropertyChanged(nameof(SavedLocations));
-
-        }
 
         public void SaveCurrentLocation(double latitude, double longitude, string name)
         {
             AddLocation(new GridLocation { Latitude = latitude, Longitude = longitude, Name = name });
+        }
+
+        private void RemoveLocation(GridLocation location)
+        {
+            if (location != null && savedLocations.Contains(location))
+            {
+                savedLocations.Remove(location);
+                OnPropertyChanged(nameof(SavedLocations));
+            }
+        }
+
+        private void DeleteLocations()
+        {
+            savedLocations.Clear();
+            OnPropertyChanged(nameof(SavedLocations));
+        }
+
+        private bool CanDeleteLocations()
+        {
+            return savedLocations.Count > 0;
         }
 
 
@@ -63,6 +83,33 @@ namespace TakPhone.Models
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
+        public class RelayCommand<T> : ICommand
+        {
+            private Action<T> execute;
+
+            public RelayCommand(Action<T> execute)
+            {
+                this.execute = execute;
+            }
+
+            public bool CanExecute(object parameter)
+            {
+                return true; // Or add your own logic
+            }
+
+            public void Execute(object parameter)
+            {
+                execute((T)parameter);
+            }
+
+            public event EventHandler CanExecuteChanged;
+            // Implement RaiseCanExecuteChanged
+        }
+
+
+
+
 
     }
 }
